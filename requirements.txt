@@ -1,0 +1,5 @@
+psutil==5.9.0
+Pyrogram==1.4.4
+requests==2.25.1
+wget==3.2
+tgcrypto

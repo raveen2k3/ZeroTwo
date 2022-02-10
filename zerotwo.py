@@ -24,7 +24,7 @@ ZeroTwo = Client(
 
 @ZeroTwo.on_message(filters.command(["start"]))
 async def help (client , message):
-    await message.reply_text(text = "fuck")
+    await message.reply_text(text = "add me to your group [wip]")
 
 @ZeroTwo.on_message(filters.command(["id"]))
 async def id (client , message):
