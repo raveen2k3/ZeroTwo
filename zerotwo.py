@@ -33,8 +33,8 @@ async def id (client , message):
 
 @ZeroTwo.on_message(filters.command(["neofetch"]))
 async def neofetch (client , message):
-    string2 = subprocess.run(["neofetch", "--stdout"] , capture_output=True , shell=False, text=None, env=None, universal_newlines=None)
-    await message.reply_text(text = string2)
+    string2 = subprocess.run(["neofetch", "--stdout"] , capture_output=True , shell=False, text=None, env=None, universal_newlines=True)
+    await message.reply_text(text = string2.stdout)
 
 
 
